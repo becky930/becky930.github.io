@@ -91,10 +91,12 @@ hr{ border: 0; border-top: 1px solid var(--border); margin: 18px 0; }
   .page__content h1{ font-size: 1.6rem; }
 }
 
-/* 메뉴를 오른쪽으로 정렬 */
-.greedy-nav .visible-links {
-  margin-left: auto;
-}
+/* 메뉴 오른쪽 정렬 + 사이트 타이틀 숨김 */
+.greedy-nav .site-title { display: none !important; }
+.greedy-nav { justify-content: flex-end !important; }
+.greedy-nav .visible-links { margin-left: 0 !important; }
+.greedy-nav .visible-links > li > a { font-weight: 600; }
+
 
 .hero .photo img {
   width: 220px;
