@@ -1,15 +1,25 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Min Jin (Becky) Kim"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+I am a strategy and AI hardware professional transitioning to research in **neuromorphic computing** and **embodied social intelligence for robots**. At Mobilint (edge AI NPU startup), I led roadmap and PoC efforts for deploying NPUs in mission-critical robots, which exposed the practical limits of dense, pre-trained inference on resource-constrained platforms. This experience motivates my research on **end-to-end neuromorphic vision** and **on-device learning** that enable long-duration autonomy.
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+Previously, I worked with multinational teams at Intel and founded a startup, building a cross-disciplinary background that spans semiconductor strategy, model benchmarking (GPU/NPU), and human-computer interaction. I studied **Cognitive Science** at UC Berkeley and am preparing for graduate study focusing on neuromorphic methods for robust perception in the wild.
+
+**Research interests.** Neuromorphic computing • Event-based vision • Predictive coding • On-device/online learning • Human–robot interaction • Energy-efficient AI systems.
+
+**Personal projects.**
+- *Social Intention from Minimal Cues*: classification of pedestrian intentions (help/stop/neutral/greeting) and cue-aware perception for embodied agents. [Projects »](/portfolio/)
+- *NPU-centric Edge LLM & sLLM Acceleration*: lightweight generation and compilation across edge NPUs. [Notes »](/posts/)
+- *Benchmarking for Robots*: throughput/latency/power profiling across GPU/NPU for robotic workloads. [Summary »](/files/benchmark_summary.pdf)
+
+[LinkedIn](https://www.linkedin.com/in/becky-kim-600557180/)
+[CV (PDF)](/files/Minjin_Kim_CV.pdf)
 
 A data-driven personal website
 ======
