@@ -48,31 +48,38 @@ a:hover{ text-decoration: underline; }
 code, pre{ font-size: 0.92em; }
 hr{ border: 0; border-top: 1px solid var(--border); margin: 18px 0; }
 
-/* 7) === Nav: force right align — v3 === */
+/* 7) === NAV STABLE PATCH: right align + no dropdown === */
 
-/* 내부 래퍼를 flex로 만들고, 메뉴 컨테이너를 오른쪽 끝으로 밀기 */
+/* 7-0) 래퍼를 플렉스로, 메뉴를 오른쪽 끝으로 */
 .masthead__inner-wrap { display: flex !important; align-items: center !important; }
 .masthead__menu { margin-left: auto !important; }
 
-/* greedy-nav 자체를 오른쪽 정렬 + 사이트 타이틀 숨김 */
-.masthead .greedy-nav { 
-  display: flex !important; 
-  justify-content: flex-end !important; 
-  width: 100% !important;
-}
+/* 7-1) Greedy Nav를 오른쪽 정렬하고, 사이트 타이틀은 숨김 */
+.masthead .greedy-nav { display: flex !important; justify-content: flex-end !important; width: 100% !important; }
 .masthead .greedy-nav .site-title { display: none !important; }
 
-/* 링크 UL이 왼쪽에 붙지 않도록 보조 */
-.masthead .greedy-nav .visible-links { 
+/* 7-2) 드롭다운(overflow) 기능 완전 비활성화 */
+.greedy-nav__toggle { display: none !important; }    /* 햄버거/닫기 버튼 숨김 */
+.greedy-nav .hidden-links { display: none !important; }  /* 숨김목록 자체 비활성화 */
+.greedy-nav .visible-links { 
+  display: flex !important; 
+  flex-wrap: wrap !important;     /* 좁은 화면에선 줄바꿈 */
   margin-left: auto !important; 
 }
-/* 메뉴 active 상태에서 굵기 제거 */
-.greedy-nav .visible-links > li.active > a {
-  font-weight: normal !important;
-}
-/* (구버전 방어) masthead__menu가 없거나 구조가 달라도 간격은 유지 */
-.greedy-nav .visible-links > li { margin-left: 1rem !important; }
 
+/* 7-3) 간격/스타일 */
+.greedy-nav .visible-links > li { margin-left: 1rem !important; }
+.greedy-nav .visible-links > li.active > a { font-weight: normal !important; }  /* 활성 탭 볼드 제거 */
+
+/* 7-4) (옵션) CV 강조 – 버튼 스타일 */
+.greedy-nav .visible-links > li > a[href*="CV"] {
+  font-weight: 600 !important;
+  background: var(--link);
+  color: #fff !important;
+  padding: 6px 12px !important;
+  border-radius: 6px !important;
+}
+.greedy-nav .visible-links > li > a[href*="CV"]:hover { filter: brightness(0.92); }
 
 /* 8) HERO 영역 */
 .hero{
