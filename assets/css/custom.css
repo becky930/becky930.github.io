@@ -1,75 +1,40 @@
-/* ===========================
-   Font
-=========================== */
-@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
-
-body {
-  font-family: 'Pretendard', sans-serif !important;
-  line-height: 1.6;
-}
-
-/* ===========================
-   Navigation Alignment
-=========================== */
-.masthead__inner-wrap {
-  display: flex !important;
-  align-items: center !important;
-}
-
+/* ===== 네비게이션 오른쪽 정렬 ===== */
 .masthead__menu {
-  margin-left: auto !important;
+  display: flex;
+  justify-content: flex-end !important;
+  width: 100%;
 }
 
 .greedy-nav .visible-links {
-  display: flex !important;
-  flex-wrap: wrap;
-  margin-left: auto !important;
-  gap: 1rem;
+  display: flex;
+  justify-content: flex-end !important;
+  gap: 20px;
 }
 
-/* ===========================
-   Hero Area
-=========================== */
-.hero {
-  padding: 4rem 1rem;
-  text-align: center;
-  background-color: #f8f9fa;
-}
-
-.hero h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-}
-
-.hero p {
-  font-size: 1.25rem;
-  color: #555;
-}
-
-/* ===========================
-   Content Styling
-=========================== */
-p {
-  margin-bottom: 1.2rem;
-  color: #222;
-}
-
-/* ===========================
-   Links
-=========================== */
-a {
-  color: #0066cc;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-/*위 배경색 제거*/
+/* ===== 네비게이션 바 배경 제거 + 그림자 제거 ===== */
 .masthead,
 .greedy-nav {
-  background-color: transparent !important; /* 배경 투명 */
-  border-bottom: none !important;           /* 밑줄 제거 */
-  box-shadow: none !important;               /* 그림자 제거 */
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
 }
+
+/* ===== 페이지 전체 배경 흰색 ===== */
+body {
+  background-color: #fff !important;
+}
+
+/* ===== 컨텐츠 영역도 흰색으로 ===== */
+.initial-content {
+  background-color: #fff !important;
+}
+
+/* ===== 다크 모드일 때도 흰색 유지 ===== */
+body[data-theme="dark"] {
+  background-color: #fff !important;
+}
+
+body[data-theme="dark"] .initial-content {
+  background-color: #fff !important;
+}
+
