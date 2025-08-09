@@ -1,0 +1,35 @@
+.page__content { max-width: 760px; }
+
+/* 히어로 영역 */
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 180px;
+  gap: 28px;
+  align-items: start;
+  margin: 12px 0 28px;
+}
+.hero .photo {
+  justify-self: end;
+}
+.hero .photo img {
+  width: 180px; height: 180px; object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 2px 12px rgba(0,0,0,.08);
+}
+
+/* 강조 박스(모집/공지용) */
+.callout {
+  background: #fff8e1;
+  border: 1px solid #ffe6a7;
+  border-radius: 10px;
+  padding: 10px 14px;
+  margin: 14px 0;
+}
+
+/* 푸터 아이콘 줄 */
+.icon-row a { margin-right: 12px; text-decoration: none; }
+.icon-row i { margin-right: 6px; }
+
+/* 사이드바/프로필 카드 감추기 */
+.sidebar, .author__avatar, .author__content { display:none; }
+.layout--single { grid-template-columns: 1fr !important; } /* 본문만 1열 */
