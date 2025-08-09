@@ -34,4 +34,9 @@
   background-color: #121212 !important;
 }
 
+/* 첫 번째 메뉴 볼드 제거 */
+.greedy-nav .visible-links li:first-child a {
+    font-weight: normal !important;
+}
+
 
