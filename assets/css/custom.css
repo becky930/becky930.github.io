@@ -48,9 +48,11 @@ a:hover{ text-decoration: underline; }
 code, pre{ font-size: 0.92em; }
 hr{ border: 0; border-top: 1px solid var(--border); margin: 18px 0; }
 
-/* 7) 상단 메뉴(심플 우측 정렬 느낌 유지) */
-.masthead, .greedy-nav{ box-shadow: none; border-bottom: 1px solid var(--border); }
-.greedy-nav .visible-links a{ font-weight: 500; }
+/* 7) 메뉴 오른쪽 정렬 + 사이트 타이틀 숨김 */
+.greedy-nav .site-title { display: none !important; }
+.greedy-nav { justify-content: flex-end !important; }
+.greedy-nav .visible-links { margin-left: 0 !important; }
+.greedy-nav .visible-links > li > a { font-weight: 600; }
 
 /* 8) HERO 영역 */
 .hero{
@@ -96,9 +98,4 @@ hr{ border: 0; border-top: 1px solid var(--border); margin: 18px 0; }
   .page__content h1{ font-size: 1.6rem; }
 }
 
-/* 메뉴 오른쪽 정렬 + 사이트 타이틀 숨김 */
-.greedy-nav .site-title { display: none !important; }
-.greedy-nav { justify-content: flex-end !important; }
-.greedy-nav .visible-links { margin-left: 0 !important; }
-.greedy-nav .visible-links > li > a { font-weight: 600; }
 
