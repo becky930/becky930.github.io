@@ -90,3 +90,8 @@ hr{ border: 0; border-top: 1px solid var(--border); margin: 18px 0; }
   .hero .photo img{ width: 128px; height: 128px; }
   .page__content h1{ font-size: 1.6rem; }
 }
+
+/* 메뉴를 오른쪽으로 정렬 */
+.greedy-nav .visible-links {
+  margin-left: auto;
+}
