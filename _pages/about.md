@@ -17,7 +17,7 @@ classes: wide
     <p class="icon-row">
       <a href="mailto:YOUR_EMAIL">Email</a>
       <a href="https://github.com/becky930" target="_blank" rel="noopener">GitHub</a>
-      <a href="/files/Minjin_Kim_CV.pdf">CV (PDF)</a>
+      <a href="/files/CV_Min Jin(Becky)_Kim.pdf">CV (PDF)</a>
     </p>
   </div>
 
