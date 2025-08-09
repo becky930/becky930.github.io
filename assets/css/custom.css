@@ -36,3 +36,7 @@
 /* 사이드바/프로필 카드 감추기 */
 .sidebar, .author__avatar, .author__content { display:none; }
 .layout--single { grid-template-columns: 1fr !important; } /* 본문만 1열 */
+
+html, body {
+  font-family: "Pretendard", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !important;}
+
