@@ -25,10 +25,9 @@ author:
   avatar           : "1619201265916.jpg"
   name             : "Becky Kim"
   pronouns         : "she/her/hers"
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Currently working as a strategy development manager at Edge AI chip startup Mobilint and as a national researcher in Mobilint R&D Center"
   location         : "Seoul, Korea"
   employer         : "Mobilint"
-  uri              : # URL
   email            : "beckykim930@gmail.com"
 
   # Academic websites
@@ -53,7 +52,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -62,7 +61,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "Becky Kim"
+  linkedin         : "https://www.linkedin.com/in/becky-kim-600557180/"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
