@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /
-title: "Minjin (Becky) Kim"
+title: "Min Jin (Becky) Kim"
 author_profile: false
 classes: wide
 ---
@@ -15,14 +15,13 @@ classes: wide
     <p><strong>Research interests.</strong> Neuromorphic computing · Event-based vision · Predictive coding · On-device/online learning · Human–robot interaction · Energy-efficient AI systems.</p>
 
     <p class="icon-row">
-      <a href="mailto:your.email@domain">Email</a>
+      <a href="mailto:YOUR_EMAIL">Email</a>
       <a href="https://github.com/becky930" target="_blank" rel="noopener">GitHub</a>
       <a href="/files/Minjin_Kim_CV.pdf">CV (PDF)</a>
     </p>
   </div>
 
   <div class="photo">
-    <img src="/images/"1619201265916.jpg" alt="Becky Kim">
+    <img src="/images/profile.jpg" alt="Becky Kim">
   </div>
-
 </div>
