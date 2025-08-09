@@ -22,6 +22,6 @@ classes: wide
   </div>
 
   <div class="photo">
-    <img src="/images/profile.jpg" alt="Becky Kim">
+    <img src="/images/becky_profile.jpg" alt="Becky Kim">
   </div>
 </div>
