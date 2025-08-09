@@ -8,14 +8,9 @@ classes: wide
 
 <div class="hero">
   <div class="text">
-    <p>I am a strategy and AI hardware professional transitioning to research in <strong>neuromorphic computing</strong> and <strong>embodied social intelligence for robots</strong>. At Mobilint (edge AI NPU startup), I led roadmap and PoC efforts for deploying NPUs in mission-critical robots, which revealed limits of dense, pre-trained inference on resource-constrained platforms. This motivates my work on <em>end-to-end neuromorphic vision</em> and <em>on-device learning</em> for long-duration autonomy.</p>
+    <p>I am a strategist and national researcher working in AI chip startup Mobilint, with research interest in implementing <strong>embodied social intelligence</strong> of robots <strong> from bio-inspired perspective</strong>. In my role, I work closely with SoC and algorithm teams to plan next-generation AI chips, commercialize NPU-based computing solutions, and execute proof-of-concepts with various industry partners to replace GPU into low power, high performance NPU solutions. My latest project is working on strategies for plannning ultra high-performance AI SoC targeting humanoids.</p>
 
-    <div class="callout">
-      📣 <strong>I’m seeking MS/RA opportunities in neuromorphic perception & embodied AI.</strong>
-      Feel free to reach out.
-    </div>
-
-    <p>Previously, I worked at Intel and founded a startup, building a cross-disciplinary background across semiconductor strategy, GPU/NPU benchmarking, and HCI. I studied <strong>Cognitive Science</strong> at UC Berkeley and am preparing for graduate study focusing on neuromorphic methods for robust perception in the wild.</p>
+    <p>Previously, I worked at Intel as one of the youngest Chief of Staff and Technical Assistant to Head of Samsung Global Account, building a cross-disciplinary background across semiconductor value chain. In this role, I was given unique opportunity to work on projects on adopting Intel CPUs to various edge devices including AI PCs, AI ultrasound devices, 5G vRAN equiptment, AI robot vacuum cleaner. I also worked on C-level AI Taskforce with Samsung Memory.</p>
 
     <p><strong>Research interests.</strong> Neuromorphic computing · Event-based vision · Predictive coding · On-device/online learning · Human–robot interaction · Energy-efficient AI systems.</p>
 
