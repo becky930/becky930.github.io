@@ -118,4 +118,15 @@ hr{ border: 0; border-top: 1px solid var(--border); margin: 18px 0; }
   .page__content h1{ font-size: 1.6rem; }
 }
 
+/* CV 메뉴 버튼화 */
+.greedy-nav .visible-links > li > a[href*="CV"] {
+  font-weight: 600;
+  background: var(--link);
+  color: white !important;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+.greedy-nav .visible-links > li > a[href*="CV"]:hover {
+  background: #084cb2; /* hover 시 진한 파랑 */
+}
 
