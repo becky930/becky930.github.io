@@ -9,17 +9,12 @@
 
 main:
   - title: "Teaching"
-    url: /teaching/    
-    
+    url: /teaching/
   - title: "Projects"
     url: /portfolio/
-        
   - title: "Work Experience"
-    url: /year-archive/
-    
+    url: /experience/
   - title: "CV"
-    url: /cv/
-    
-  # - title: "CV"
-  #   url: /cv-json/
+    url: /files/CV_Min Jin(Becky)_Kim.pdf
+    external: true     # ← 이게 있으면 새 탭으로 열림
 
