@@ -66,7 +66,10 @@ hr{ border: 0; border-top: 1px solid var(--border); margin: 18px 0; }
 .masthead .greedy-nav .visible-links { 
   margin-left: auto !important; 
 }
-
+/* 메뉴 active 상태에서 굵기 제거 */
+.greedy-nav .visible-links > li.active > a {
+  font-weight: normal !important;
+}
 /* (구버전 방어) masthead__menu가 없거나 구조가 달라도 간격은 유지 */
 .greedy-nav .visible-links > li { margin-left: 1rem !important; }
 
