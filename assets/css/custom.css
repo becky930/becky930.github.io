@@ -91,4 +91,30 @@ hr{ border:0; border-top:1px solid var(--border); margin:18px 0; }
     font-weight: normal !important;
 }
 
+/* ===== Dark mode fix ===== */
+[data-theme="dark"] body {
+  background: #0f1117 !important;     /* 페이지 전체 배경 */
+  color: #e6eaf2 !important;          /* 기본 글자색 */
+}
+
+/* 본문 박스들이 흰색을 강제하던 걸 모두 무력화 */
+[data-theme="dark"] .initial-content,
+[data-theme="dark"] .page,
+[data-theme="dark"] .page__inner-wrap,
+[data-theme="dark"] .page__content {
+  background: transparent !important; /* body 배경을 그대로 쓰게 */
+  box-shadow: none;                   /* 테마따라 필요 시 */
+}
+
+/* 네비/하단 경계선, 링크 컬러 등 보정 */
+[data-theme="dark"] .masthead {
+  background: #2b2f36 !important;
+  border-bottom: 1px solid #222833 !important;
+}
+[data-theme="dark"] a { color: #8ab4f8; }
+[data-theme="dark"] hr { border-top-color: #222833 !important; }
+
+/* 활성 메뉴 볼드만 유지하고, 나머지 기본 굵기 */
+.greedy-nav .visible-links .active a { font-weight: 700; }
+.greedy-nav .visible-links li a { font-weight: 400; }
 
